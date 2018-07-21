@@ -4,10 +4,10 @@
     "description": "PHP Telegram bot",
     "keywords": ["telegram", "bot", "api"],
     "license": "MIT",
-    "homepage": "https://github.com/php-telegram-bot/core",
+    "homepage": "https://github.com/hidercorp/core",
     "support": {
-        "issues": "https://github.com/php-telegram-bot/core/issues",
-        "source": "https://github.com/php-telegram-bot/core"
+        "issues": "https://github.com/hidercorp/core/issues",
+        "source": "https://github.com/hidercorp/core"
     },
     "authors": [
         {
@@ -22,6 +22,10 @@
             "role": "Developer"
         }
     ],
+    "require": {
+    "php-telegram-bot/telegram-bot-manager": "^1.3",
+    "longman/telegram-bot": "dev-develop as 0.54"
+},
     "require": {
         "php": "^5.5|^7.0",
         "ext-pdo": "*",
